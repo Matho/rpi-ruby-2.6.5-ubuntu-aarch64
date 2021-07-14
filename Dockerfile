@@ -20,7 +20,7 @@ RUN apt-get update \
 
 ENV RUBY_MAJOR 2.6
 ENV RUBY_VERSION 2.6.5
-ENV RUBY_DOWNLOAD_SHA256 97ddf1b922f83c1f5c50e75bf54e27bba768d75fea7cda903b886c6745e60f0a 
+ENV RUBY_DOWNLOAD_SHA256 66976b716ecc1fd34f9b7c3c2b07bbd37631815377a2e3e85a5b194cfdcbed7d 
 
 # some of ruby's build scripts are written in ruby
 # we purge this later to make sure our final image uses what we just built
